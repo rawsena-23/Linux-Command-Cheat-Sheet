@@ -1,0 +1,46 @@
+### Project 1: Linux Command Cheat Sheet
+# Repo Name: linux-cli-cheatsheet
+# File: README.md
+
+# Linux CLI Cheat Sheet
+
+## 🔧 File Handling
+- `ls -l` : List files with details
+- `cp source.txt destination.txt` : Copy file
+- `mv old.txt new.txt` : Rename or move file
+- `rm file.txt` : Delete file
+- `touch newfile.txt` : Create empty file
+
+## 📁 Directory Handling
+- `mkdir new_folder` : Create directory
+- `cd foldername` : Change directory
+- `pwd` : Show current path
+- `rmdir foldername` : Remove empty directory
+- `rm -r foldername` : Remove directory recursively
+
+## 📊 System Monitoring
+- `top` : Live system processes
+- `htop` : Enhanced process viewer (if installed)
+- `df -h` : Disk usage
+- `free -h` : Memory usage
+- `uptime` : System load and uptime
+
+## 🌐 Networking
+- `ping google.com` : Check connectivity
+- `ifconfig` / `ip a` : Network interfaces
+- `netstat -tulnp` : Listening ports and services
+- `curl example.com` : Fetch web page
+- `wget http://example.com/file.txt` : Download file
+
+## 🔐 Permissions
+- `chmod +x script.sh` : Make script executable
+- `chown user:group file.txt` : Change ownership
+- `ls -l` : View file permissions
+
+## 📦 Package Management (Debian-based)
+- `sudo apt update` : Update package list
+- `sudo apt upgrade` : Upgrade packages
+- `sudo apt install packagename` : Install package
+- `sudo apt remove packagename` : Uninstall package
+
+---
